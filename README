@@ -1,0 +1,64 @@
+Some BASH scripts:
+
+| SCRIPT                       | DESCRIPTION                                                  |
+|------------------------------+--------------------------------------------------------------|
+| baremo.sh                    | Displays remaining battery on laptops                        |
+| bat_alert.sh                 | Plays a sound when battery is fainting                       |
+| bawescan.sh                  | Scans for WIFI networks and displays them on a table         |
+| bawimo_ap.sh                 | BASH wifi connection helper                                  |
+| brightness.sh                | Increases/descreases screen brightness                       |
+| centerim_buddy_annoyer.sh    | Annoys MSN people by loging in&out repeatedly (centerim)     |
+| colortable16.sh              | Displays a BASH color table                                  |
+| conkeror_clean.sh            | Removes conkeror data (cookies/history/,...)                 |
+| conkeror_show_bookmarks.sh   | Shows conkeror bookmarks                                     |
+| extract_mp3.sh               | Extracts MP3 sound from a video (not all video formats)      |
+| flv2mp4.sh                   | Conversion from FLV to MP4                                   |
+| geo.sh                       | Displays information about a IP                              |
+| get_colors.256.sh            | Displays colors on a 256-color terminal                      |
+| gmail_led_alert.sh           | Scroll lock led blinks when mail arrives to a Gmail account  |
+| gmailodic.sh                 | Attacks Gmail account by dictionary                          |
+| grab_desktop.sh              | Records desktop by using `ffmpeg'                            |
+| lw.sh                        | Bookmarks storage on command line                            |
+| ngmail.sh                    | Retrieve number of new emails on Gmail account               |
+| pingall.sh                   | Pings 192.168.1.0/24 and shows who's up by using `fping'     |
+| qsdown.sh                    | Download tracks from QuestStudios.com                        |
+| rename_add.sh                | Moves renaming on the fly to an numeric ordered pattern      |
+| scast.sh                     | Records a specified window by using `recordmydesktop'        |
+| sierra_st.sh                 | QuestStudios.com track mass downloader (needs `qsdown.sh')   |
+| sngmail.sh                   | Retrieve number of new emails on Gmail account (interactive) |
+| sysclockupdt.sh              | Updates system clock using external server                   |
+| timer.sh                     | Sleeps on the background and plays a sound when time's up    |
+| tinyurl.sh                   | Asks TinyURL.com for a tiny URL                              |
+| vaio_bluetoothpower.sh       | Enables/disables bluetooth on some VAIO laptops              |
+| vaio_cdpower.sh              | Enables/disables optical drive on some VAIO laptops          |
+| vaio_togglebluetoothpower.sh | Toggles bluetooth on some VAIO laptops                       |
+| vaio_togglecdpower.sh        | Toogles optical drive on some VAIO laptops                   |
+| vaio_togglewwanpower.sh      | Toogles WWAN on some VAIO laptops                            |
+| vaio_wwanpower.sh            | Enables/disables WWAN on some VAIO laptops                   |
+| vlog.sh                      | Record video logs with the webcam (MPG format)               |
+| w3m_clean.sh                 | Removes w3m data (cookies/history/,...)                      |
+| wiki_plain.sh                | Retrieves a Wikipedia page and format it as plain text       |
+
+
+NOTES:
+
+`sngmail.sh' vs `ngmail.sh'
+
+  `sngmail.sh' is better to use on a CLI interface to retrive the
+  number of new messages. In this script, the password is asked
+  interatively. In `ngmail.sh' the password must be entered as a
+  option, which is unsecure for the command line since it gets
+  recorded on the history, but nice for scripts (with perms. 600).
+
+`qsdown.sh' and `sierra_st'
+
+  `qsdown.sh' downloads on track or range of tracks from
+  QuestStudios.com by assembling the URI. `sierra_st' uses `qsdown.sh'
+  for downloading complete soundtracks without searching for the
+  correct URL.
+
+
+
+--
+Pferor <pferor [AT] gmail [DOT] com>
+
